@@ -1,0 +1,12 @@
+--> $noNavbar variable:
+We put this variable when we don't need the navigation bar to appear on the page.
+
+-->$pageTitle:
+We put this variable on the page that we want to give a title to, as its value is equal to the title.
+  (if we didn't put this variable, the title will be "default" ).
+
+-->redirectHome()
+We use this function when we want to show an error message for a certain period of time and then redirect the person to the home page
+
+it's a function with two parameters. 
+The first is the error message, and the second is the seconds we want to wait to be redirected to the dashboard page.
